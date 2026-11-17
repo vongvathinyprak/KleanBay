@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Klean Bay | Browse Recipes</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">
+        Skip to content
+    </a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">Klean Bay</a>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+
+                    <li>
+                        <a href="browse.html" aria-current="page">
+                            Browse
+                        </a>
+                    </li>
+
+                    <li><a href="submit.html">Submit a Recipe</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container page-main">
+        <section class="page-intro">
+            <p class="eyebrow">Find your next meal</p>
+
+            <h1>Browse Recipes</h1>
+
+            <p>
+                Choose something warm and crunchy or cool
+                and refreshing.
+            </p>
+
+            <div class="button-row">
+                <a class="button button-outline" href="#recipes">
+                    Recipe Collection
+                </a>
+
+                <a class="button button-outline" href="#comparison">
+                    Compare Recipes
+                </a>
+            </div>
+        </section>
+
+        <section id="recipes" class="section">
+            <h2>Our Recipe Collection</h2>
+
+            <div class="recipe-grid">
+                <article class="recipe-card">
+                    <img
+                        src="assets/toast.jpg"
+                        alt="Peanut butter banana toast on a plate"
+                    >
+
+                    <div class="card-content">
+                        <span class="tag">Toaster needed</span>
+
+                        <h3>Peanut Butter Banana Toast</h3>
+
+                        <p>
+                            A simple combination of bread,
+                            peanut butter, and banana.
+                        </p>
+
+                        <ul class="recipe-highlights">
+                            <li>3 main ingredients</li>
+                            <li>1 serving</li>
+                            <li>Optional cinnamon topping</li>
+                        </ul>
+
+                        <a class="button" href="recipe1.html">
+                            View Recipe
+                        </a>
+                    </div>
+                </article>
+
+                <article class="recipe-card">
+                    <img
+                        src="assets/yogurt.jpg"
+                        alt="Fruit and yogurt bowl with a granola topping"
+                        loading="lazy"
+                    >
+
+                    <div class="card-content">
+                        <span class="tag">No cooking needed</span>
+
+                        <h3>Fruit and Yogurt Bowl</h3>
+
+                        <p>
+                            Layer yogurt, your choice of fruit,
+                            and granola in one bowl.
+                        </p>
+
+                        <ul class="recipe-highlights">
+                            <li>3 main ingredients</li>
+                            <li>1 serving</li>
+                            <li>Easy to customize</li>
+                        </ul>
+
+                        <a class="button" href="recipe2.html">
+                            View Recipe
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="comparison" class="section">
+            <h2>Compare Before You Choose</h2>
+
+            <div
+                class="table-wrapper"
+                role="region"
+                aria-label="Recipe comparison"
+                tabindex="0"
+            >
+                <table>
+                    <caption>
+                        Ingredients and equipment for our recipes
+                    </caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">Recipe</th>
+                            <th scope="col">Main ingredients</th>
+                            <th scope="col">Equipment</th>
+                            <th scope="col">Servings</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <a href="recipe1.html">
+                                    Banana Toast
+                                </a>
+                            </th>
+
+                            <td>Bread, peanut butter, banana</td>
+                            <td>Toaster, plate, spreading knife</td>
+                            <td>1</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">
+                                <a href="recipe2.html">
+                                    Yogurt Bowl
+                                </a>
+                            </th>
+
+                            <td>Yogurt, fruit, granola</td>
+                            <td>Bowl and spoon</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="callout">
+            <h2>Have a Recipe Idea?</h2>
+
+            <p>
+                Try our suggestion form and help shape
+                the next version of Klean Bay.
+            </p>
+
+            <a class="button" href="submit.html">
+                Suggest a Recipe
+            </a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Klean Bay. Student project.</p>
+            <a href="about.html">About our team</a>
+        </div>
+    </footer>
+</body>
+</html>
